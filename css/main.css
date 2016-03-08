@@ -1,0 +1,183 @@
+/* Inserta tu codigo aqui */
+*{color: #ffffff;}
+header{
+	background-color: #14141f;
+	color: #ffffff;
+}
+header li{
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+	list-style: none;
+	display: inline-block;
+	padding: 7px 13px;
+	margin-top: 25px;
+}
+header li:hover{
+	background-color: white;
+	color: black;
+	border-radius: 7px;
+}
+img.logo{
+	height: 100px;
+}
+/*FIN header*/
+
+/*GENERALES*/
+.bg-gris{
+	background-color: #29293d;
+}
+.span{
+	display: inline-block;
+}
+.stylish{
+	font-family: Courgette;
+	color: #ffbf00;
+}
+/*GENERALES*/
+
+.IMG-Header{
+	background-image: url(../image/header-image.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	width: 100%;
+	min-height: 400px;
+	margin-bottom: 30px;
+
+}
+	.SpringCame{
+	background-color: #14141f;
+	position: relative;
+	left: 5%;
+	top: 150px;
+	bottom: 50px;
+	}
+				.SpringCame h1{
+					padding-top: 7px;
+					margin-top: -20px;
+					padding-left: 20px;
+					margin-left: -15px;
+					padding-bottom: 27px;
+					text-align: center;
+					font-size: 60px;
+				}
+				.SpringCame ul{
+					list-style: none;
+					display: inline-block;
+					padding: 7px 13px;
+					text-align: center;
+					position: relative;
+					left: 30%;
+				}
+				.SpringCame li{
+					display: inline-block;
+					padding: 7px 13px;
+					text-align: center;
+					position: relative;
+				}
+		.bg-dark-3-in-row{
+			background-color: #14141f;
+			display: inline-block;
+			margin-left: 7px;
+			margin-right: 7px;
+			margin-bottom: 30px;
+			padding-bottom: 10px;
+		}
+		.bg-dark p{
+			text-align: center;
+			padding: 0 15px;
+		}
+		.IMG{
+			display: inline-block;
+			min-height: 250px;
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+			background-position: center;
+			background-size: contain;
+		}
+		.uno{
+			background-image: url(../image/image7.jpg);
+			width: 380px;
+		}
+		.dos{
+			background-image: url(../image/image3.jpg);
+			width: 380px;
+		}
+		.tres{
+			background-image: url(../image/image2.jpg);
+			width: 380px;
+		}
+
+
+
+/*section.Asimetric*/
+section.Asimetric{
+	padding-bottom: 30px;
+}
+.IMG-bot{
+			background-image: url(../image/image4.jpg);
+			display: inline-block;
+			min-height: 320px;
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+			background-position: center;
+			background-size: contain;
+}
+.IMG-bot > img{
+	height: 75%;
+	width: 100%
+}
+.bg-dark{
+			background-color: #14141f;
+			display: inline-block;
+			margin-left: 7px;
+			margin-right: 7px;
+			margin-bottom: 0px;
+			padding-bottom: 10px;
+}
+
+div.form{}
+form {}
+
+
+div.AboutMe{
+	background-color: #14141f;
+	width: 100%;
+	display: inline-block;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section.Asimetric*/
+
+
+
+footer{
+	background-color: #14141f;
+	color: #ffffff;
+	text-align: center;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
