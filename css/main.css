@@ -4,13 +4,18 @@ header{
 	background-color: #14141f;
 	color: #ffffff;
 }
+header ul{
+	border-bottom: none !important;
+	color: #ffffff !important;
+}
 header li{
+	color: white !important;
 	font-family: arial;
 	font-style: italic;
 	font-weight: bold;
 	list-style: none;
 	display: inline-block;
-	padding: 7px 13px;
+	padding: 7px 5px;
 	margin-top: 25px;
 }
 header li:hover{
@@ -20,6 +25,10 @@ header li:hover{
 }
 img.logo{
 	height: 100px;
+}
+.hamburguesa:hover{
+	color: black;
+	background-color: purple;
 }
 /*FIN header*/
 
