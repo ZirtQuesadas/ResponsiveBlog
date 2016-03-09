@@ -55,10 +55,11 @@ img.logo{
 	left: 5%;
 	top: 150px;
 	bottom: 50px;
+	padding-top: 20px;
 	}
 				.SpringCame h1{
 					padding-top: 7px;
-					margin-top: -20px;
+					margin-top: -0px;
 					padding-left: 20px;
 					margin-left: -15px;
 					padding-bottom: 27px;
@@ -140,17 +141,32 @@ section.Asimetric{
 			padding-bottom: 10px;
 }
 
-div.form{}
-form {}
+div.form{
+	background-color: #14141f;
+	width: 120%;
+	margin-left: -5px ;
+}
+form {
+	 width: 110%;
+	 margin-left: -5px;
+	 position: relative;
+}
 
 
 div.AboutMe{
 	background-color: #14141f;
-	width: 100%;
+	width: 110%;
 	display: inline-block;	
 }
-
-
+.size-20{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 3px;
+}
+.style{
+	text-align: center;
+	padding: 2px 7px;
+}
 
 
 
@@ -172,12 +188,31 @@ footer{
 	color: #ffffff;
 	text-align: center;
 }
+
+footer p{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
+	.ocultar{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 600px) {
-
+	
 }
+
+
+/* ul class nav nav-tabs hidden-xs
+ class active
+  button type=button navbar-toggle collapsed
+
+  <span class="icon-bar"></span>
+
+  div id="menu" class=""
+
+  navbar-collapse collapse
+*/
